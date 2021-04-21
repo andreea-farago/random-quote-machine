@@ -1,0 +1,72 @@
+*{
+    transition: all 0.5s ease-in-out;
+}
+.header-container{
+    z-index: 100;
+    position:fixed;
+}
+h1{
+    font-family: 'Fjalla One', sans-serif;
+    color: #EDF2ED;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 70%);
+    letter-spacing: 1.5px;
+    word-spacing: 8px;
+}
+.container{
+    font-family: 'Fjalla One', sans-serif;
+    color: #31353a;
+    margin-top: 13rem;
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 10px;
+    padding-left: 80px;
+}
+.fab{
+    color: black;
+}
+.btn-info{
+    color: white !important;
+}
+.image-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: fixed;
+    top: 0px;
+    min-width: 100vw;
+}
+.info-wrapper{
+    background-color:rgba(0, 0, 0, 0.61);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right:0%;
+    bottom:0;
+    color: white;
+    display:none;
+}
+.info-box{
+    background-color: rgb(193, 220, 243);
+    color: rgb(33, 15, 83);
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    right:5%;
+    bottom: 30%;
+    border-radius: 20px;
+    padding:20px;
+}
+.info-box p{
+    margin-top:30px;
+}
+.footer-container{
+    position:fixed;
+    color: white;
+    bottom:0%;
+    right:0%;
+    left:0%;
+    background-color: rgba(0, 0, 0, 0.788);
+}
+a:hover,
+a:active{
+    color: rgb(172, 90, 197) !important;
+}
